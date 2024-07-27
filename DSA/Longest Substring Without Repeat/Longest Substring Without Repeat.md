@@ -1,4 +1,5 @@
 <div class="ps-problem-part"><h2 class="ps-problem-part-name"><a href="https://workat.tech/problem-solving/practice/longest-substring-without-repeat">Longest Substring Without Repeat</a></h2>
+<p>Given a string <code>s</code>, find the length of the longest substring without repeating characters.</p>
 <h5>Example</h5>
 <pre class="plaintext hljs"><code><strong>s:</strong> “workattech”
 <strong>Result:</strong> 6
