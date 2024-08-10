@@ -1,6 +1,6 @@
 package com.foysal.dsa.arrays;
 
-public class BestTimeToBuyAndSellStock2 {
+public class BestTimeToBuyAndSellStock2 {  // LeetCode 122
     public int maxProfit(int[] prices) {
         int maxProfit = 0;
         for (int i = 1; i < prices.length; i++) {
