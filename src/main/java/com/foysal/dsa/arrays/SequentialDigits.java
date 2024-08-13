@@ -20,4 +20,20 @@ public class SequentialDigits {  // LeetCode 1291
         Collections.sort(ans);
         return ans;
     }
+
+    // Another optimized way
+    public List<Integer> sequentialDigits2(int low, int high) {
+        String s = "123456789";
+        List<Integer> ans = new ArrayList<>();
+        for (int i = 1; i <= 9; i++) {
+            for(int j = 0; i + j <= 9; j++){
+                String temp = s.substring(j, i + j);
+                int val = Integer.parseInt(temp);
+                if(val >= low && val <= high){
+                    ans.add(val);
+                }
+            }
+        }
+        return ans;
+    }
 }
